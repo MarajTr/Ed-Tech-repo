@@ -1,0 +1,13 @@
+.background-image {
+    filter: brightness(50%);
+}
+
+@media only screen and (max-width:576px) {
+    .blockdisplay {
+        display: none;
+    }
+
+    .display {
+        flex-direction: column;
+    }
+}
